@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Before run the application
 
-Please use Workspace Typescript Version
+Please use Workspace Typescript Version.
 If you use Visual Studio Code Editor, more information: https://vscode.readthedocs.io/en/latest/languages/typescript/#using-the-workspace-version-of-typescript 
 
 ## Available Scripts
