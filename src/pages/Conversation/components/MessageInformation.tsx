@@ -44,7 +44,7 @@ function MessageInformation({ value, onResend }: MessageInformationProps) {
             )}
           </Grid>
           <Grid container>
-            <Box className={cx(classes.messageContainer, classes.rightTriangle)} mr={20} style={isMobile ? { maxWidth: 270 } : {}}>
+            <Box className={cx(classes.messageContainer, classes.rightTriangle)} mr={20} style={isMobile ? { maxWidth: 230 } : {}}>
               {value.text}
             </Box>
             <Box>
@@ -59,7 +59,7 @@ function MessageInformation({ value, onResend }: MessageInformationProps) {
             <Avatar name={value.userId} />
             <Typography color="#999999" fontSize={12} textAlign="center">{value.userId}</Typography>
           </Box>
-          <Box className={cx(classes.messageContainer, classes.leftTriagle)} ml={20} style={isMobile ? { maxWidth: 270 } : {}}>
+          <Box className={cx(classes.messageContainer, classes.leftTriagle)} ml={20} style={isMobile ? { maxWidth: 230 } : {}}>
             {value.text}
           </Box>
           <Box ml={10}>
